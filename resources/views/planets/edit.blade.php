@@ -48,7 +48,7 @@
     @else
     <p> id = {{ $id }}の惑星情報は存在しません。</p>
     @endif
-    <a href ="/planets">戻る</a>
+    <a href="/planets">戻る</a>
 </body>
 
 </html>

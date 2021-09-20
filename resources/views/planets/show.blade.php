@@ -29,7 +29,7 @@
     @else
     <p> id = {{ $id }}の惑星情報は存在しません。</p>
     @endif
-    <p><a href="/planets/{{ $planet->id }}/edit"><input type="submit" value="編集" ></a></p>
+    <p><a href="/planets/{{ $planet->id }}/edit"><input type="submit" value="編集"></a></p>
     <a href="/planets">戻る</a>
 </body>
 

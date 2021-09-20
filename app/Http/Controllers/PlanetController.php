@@ -66,5 +66,3 @@ class PlanetController extends Controller
         return redirect('/planets');
     }
 }
-
-
