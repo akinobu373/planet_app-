@@ -23,7 +23,6 @@
         </ul>
     </div>
     @endif
-    @if ($planet !== null)
     <form action="/planets/{{ $planet->id }}" method="post">
         @csrf
         @method('PATCH')
@@ -45,7 +44,6 @@
         </p>
         <input type="submit" value="更新">
     </form>
-    @endif
     <a href="/planets">戻る</a>
 </body>
 

@@ -10,7 +10,6 @@
 
 <body>
     <h1>惑星情報</h1>
-    @if ($planet !== null)
     <p>
         <b>名前：{{ $planet->name }}</b>
     </p>
@@ -26,7 +25,6 @@
     <p>
         <b>重量：{{ $planet->weight }}</b>
     </p>
-    @endif
     <p><a href="/planets/{{ $planet->id }}/edit"><input type="submit" value="編集"></a></p>
     <a href="/planets">戻る</a>
 </body>
