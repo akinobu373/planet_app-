@@ -33,7 +33,7 @@ class PlanetController extends Controller
 
     public function store(PlanetRequest $request)
     {
-        $planet = new Planet;
+        $planet = new Planet();
 
         $planet->name = $request->name;
         $planet->english_name = $request->english_name;
